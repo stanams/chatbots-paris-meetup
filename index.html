@@ -277,11 +277,12 @@
         <div class="row contact">
           <div class="col-md-6 contact-form">
             <h3 class="content-ct"><span class="ti-email"></span> Pour nous contacter:</h3>
-            <form class="form-horizontal" data-toggle="validator" role="form">
+            <form class="form-horizontal" data-toggle="validator" role="form" action="https://formspree.io/stan.amsellem@gmail.com"
+      method="POST">
               <div class="form-group">
                 <label for="name" class="col-sm-3 control-label">Nom<sup>*</sup></label>
                 <div class="col-sm-9">
-                  <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="John Doe" required>
                   <div class="help-block with-errors pull-right"></div>
                   <span class="form-control-feedback" aria-hidden="true"></span>
                 </div>
@@ -289,7 +290,7 @@
               <div class="form-group">
                 <label for="email" class="col-sm-3 control-label">Email<sup>*</sup></label>
                 <div class="col-sm-9">
-                  <input type="email" class="form-control" id="email" placeholder="you@youremail.com" required>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="you@youremail.com" required>
                   <div class="help-block with-errors pull-right"></div>
                   <span class="form-control-feedback" aria-hidden="true"></span>
                 </div>
@@ -297,7 +298,7 @@
               <div class="form-group">
                 <label for="message" class="col-sm-3 control-label">Votre Message<sup>*</sup></label>
                 <div class="col-sm-9">
-                  <textarea id="message" class="form-control" rows="3" required></textarea>
+                  <textarea id="message" name="content" class="form-control" rows="3" required></textarea>
                   <div class="help-block with-errors pull-right"></div>
                   <span class="form-control-feedback" aria-hidden="true"></span>
                 </div>
