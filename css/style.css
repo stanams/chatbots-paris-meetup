@@ -368,6 +368,7 @@ ul.footer-menu li a:hover {
 .social-icons {
 	float: left;
 	margin: 0 10px 0 10px;
+	z-index: 100;
 }
 
 .social-icon-container {
